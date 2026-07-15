@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inquire | Trident Studios — Wedding Photography</title>
+  <meta name="description"
+    content="Tell us about your day. Send an inquiry to Trident Studios for editorial wedding, engagement, and elopement photography across Brandon, Winnipeg, Regina, and the prairies." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Trident Studios" />
+  <link rel="canonical" href="https://tridentstudios.ca/inquiry/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Trident Studios" />
+  <meta property="og:title" content="Inquire | Trident Studios" />
+  <meta property="og:description"
+    content="Tell us about your day — we'll be in touch within 48 hours." />
+  <meta property="og:url" content="https://tridentstudios.ca/inquiry/" />
+  <meta property="og:locale" content="en_CA" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tridentstudios.ca/" },
+      { "@type": "ListItem", "position": 2, "name": "Inquire", "item": "https://tridentstudios.ca/inquiry/" }
+    ]
+  }
+  </script>
+
+  <script>
+    (function () {
+      try {
+        var p = new URLSearchParams(location.search);
+        var forced = p.get('theme');
+        var stored = localStorage.getItem('ts-theme');
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var t = forced || stored || (prefersDark ? 'dark' : 'light');
+        if (t !== 'dark' && t !== 'light') t = 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+
+  <link rel="icon" type="image/png" href="../public/Logos/tridentStudiosLogo-dark.png" />
+
+  <style>
+    :root { --inq-bg: #f7f4ef; }
+    html[data-theme="dark"] { --inq-bg: #11100e; }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background: var(--inq-bg);
+      overflow: hidden;
+    }
+
+    .inquiry-frame {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    /* Floating return-home link so the full-screen form is never a dead end */
+    .inquiry-home {
+      position: fixed;
+      top: 16px;
+      left: 16px;
+      z-index: 10;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 16px 9px 13px;
+      font-family: "Inter", system-ui, -apple-system, Segoe UI, sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      color: #2a2722;
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      border-radius: 999px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+
+    .inquiry-home:hover { background: #fff; transform: translateY(-1px); }
+    .inquiry-home span[aria-hidden] { font-size: 15px; line-height: 1; }
+
+    html[data-theme="dark"] .inquiry-home {
+      color: #efece6;
+      background: rgba(28, 26, 23, 0.82);
+      border-color: rgba(255, 255, 255, 0.12);
+    }
+    html[data-theme="dark"] .inquiry-home:hover { background: rgba(40, 37, 33, 0.95); }
+  </style>
+</head>
+
+<body>
+  <a href="../" class="inquiry-home" aria-label="Return to Trident Studios home">
+    <span aria-hidden="true">&larr;</span>
+    <span>Trident Studios</span>
+  </a>
+
+  <iframe
+    class="inquiry-frame"
+    src="https://tridenteventgroup.fillout.com/tps-discovery"
+    title="Trident Studios inquiry form"
+    allow="clipboard-write; fullscreen"></iframe>
+</body>
+
+</html>

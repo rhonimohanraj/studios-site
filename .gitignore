@@ -1,0 +1,77 @@
+# Photos are ignored by default: public/ holds ~1.6 GB of full-res originals
+# that the site never loads. Only the images actually referenced by the
+# pages and the script.js galleries are committed, web-sized.
+# Full-res originals live outside the repo: D:\TRIDENT\photo-site-originals
+public/**
+!public/**/
+
+# logos + favicons
+!public/Logos/**
+
+# images referenced by the site
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-116.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-124.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-147.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-158.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-179.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-185.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-191.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-213.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-248.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-26.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-263.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-270.jpg
+!public/Weddings/Ashley & Mayson/Ashley+Mason-WeddingHR-58.jpg
+!public/Weddings/Desiree and Ruhi/DesireeandRuhi-03891.jpg
+!public/Weddings/Desiree and Ruhi/DesireeandRuhi-04994.jpg
+!public/Weddings/Desiree and Ruhi/DesireeandRuhi-05054.jpg
+!public/Weddings/Desiree and Ruhi/DesireeandRuhi-05177.jpg
+!public/Weddings/Desiree and Ruhi/DesireeandRuhi-05225.jpg
+!public/Weddings/Desiree and Ruhi/DesireeandRuhi-05290.jpg
+!public/Weddings/Desiree and Ruhi/DesireeandRuhi-05332.jpg
+!public/Weddings/Ihuoma & Christian/Ihuoma&Christian-000.jpg
+!public/Weddings/Ihuoma & Christian/Ihuoma&Christian-050.jpg
+!public/Weddings/Ihuoma & Christian/Ihuoma&Christian-057.jpg
+!public/Weddings/Ihuoma & Christian/Ihuoma&Christian-062.jpg
+!public/Weddings/Ihuoma & Christian/Ihuoma&Christian-066.jpg
+!public/Weddings/Ihuoma & Christian/Ihuoma&Christian-087.jpg
+!public/Weddings/Ihuoma & Christian/Ihuoma&Christian-124.jpg
+!public/Weddings/Laura and Tim/8E2A0088A.jpg
+!public/Weddings/Laura and Tim/8E2A2063A.jpg
+!public/Weddings/Laura and Tim/8E2A2065A.jpg
+!public/Weddings/Laura and Tim/8E2A3280A.jpg
+!public/Weddings/Laura and Tim/8E2A3283A.jpg
+!public/Weddings/Laura and Tim/8E2A3350A.jpg
+!public/Weddings/Laura and Tim/8E2A3465A.jpg
+!public/Weddings/Laura and Tim/8E2A3562A.jpg
+!public/Weddings/Laura and Tim/8E2A3697A.jpg
+!public/Weddings/Shelby & Jaydan/Shelby&Jaydan-15.jpg
+!public/Weddings/Shelby & Jaydan/Shelby&Jaydan-17.jpg
+!public/Weddings/Shelby & Jaydan/Shelby&Jaydan-18.jpg
+!public/Weddings/Shelby & Jaydan/Shelby&Jaydan-19.jpg
+!public/Weddings/Shelby & Jaydan/Shelby&Jaydan-2.jpg
+!public/Weddings/Shelby & Jaydan/Shelby&Jaydan-20.jpg
+!public/Weddings/Shelby & Jaydan/Shelby&Jaydan-3.jpg
+!public/Weddings/Shelby & Jaydan/Shelby&Jaydan-8.jpg
+!public/Weddings/Shelby & Jaydan/Shelby&Jaydan-9.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-195.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-20.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-27.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-294.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-301.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-377.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-390.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-40.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-453.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-46.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-47.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-83.jpg
+!public/Weddings/Vrajna & Rutuj/Emma&Chad-90.jpg
+!public/engagement/Brenna & Bryce/brennabryce-06.jpg
+!public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-22.jpg
+!public/engagement/Harsh & Aesha/Harsh&Aesha-Engagement-140.jpg
+!public/engagement/Vrajna & Rutuj/RobMintenko-5.jpg
+
+# local noise
+.DS_Store
+Thumbs.db
