@@ -88,11 +88,11 @@
 
     const GALLERIES = {
       'ashley-mayson': { title: 'Ashley & Mayson', folder: 'Ashley & Mayson', files: [
-        'Ashley+Mason-WeddingHR-26.jpg', 'Ashley+Mason-WeddingHR-116.jpg', 'Ashley+Mason-WeddingHR-124.jpg',
-        'Ashley+Mason-WeddingHR-147.jpg', 'Ashley+Mason-WeddingHR-158.jpg', 'Ashley+Mason-WeddingHR-179.jpg',
-        'Ashley+Mason-WeddingHR-185.jpg', 'Ashley+Mason-WeddingHR-191.jpg', 'Ashley+Mason-WeddingHR-213.jpg',
-        'Ashley+Mason-WeddingHR-248.jpg', 'Ashley+Mason-WeddingHR-263.jpg', 'Ashley+Mason-WeddingHR-270.jpg',
-        'Ashley+Mason-WeddingHR-58.jpg' ] },
+        'Ashley%2BMason-WeddingHR-26.jpg', 'Ashley%2BMason-WeddingHR-116.jpg', 'Ashley%2BMason-WeddingHR-124.jpg',
+        'Ashley%2BMason-WeddingHR-147.jpg', 'Ashley%2BMason-WeddingHR-158.jpg', 'Ashley%2BMason-WeddingHR-179.jpg',
+        'Ashley%2BMason-WeddingHR-185.jpg', 'Ashley%2BMason-WeddingHR-191.jpg', 'Ashley%2BMason-WeddingHR-213.jpg',
+        'Ashley%2BMason-WeddingHR-248.jpg', 'Ashley%2BMason-WeddingHR-263.jpg', 'Ashley%2BMason-WeddingHR-270.jpg',
+        'Ashley%2BMason-WeddingHR-58.jpg' ] },
       'shelby-jaydan': { title: 'Shelby & Jaydan', folder: 'Shelby & Jaydan', files: [
         'Shelby&Jaydan-9.jpg', 'Shelby&Jaydan-15.jpg', 'Shelby&Jaydan-17.jpg', 'Shelby&Jaydan-18.jpg',
         'Shelby&Jaydan-19.jpg', 'Shelby&Jaydan-2.jpg', 'Shelby&Jaydan-20.jpg', 'Shelby&Jaydan-3.jpg',
