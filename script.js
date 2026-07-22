@@ -59,14 +59,32 @@
   }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
   targets.forEach(el => io.observe(el));
 
-  /* ── Featured wedding lightbox galleries ──────────────────
+  /* ── Lightbox galleries ───────────────────────────────────
    * Clicking a .couple card opens that couple's photos in an
-   * overlay with prev/next. Image lists mirror the folders in
-   * public/Weddings/ (card thumbnail listed first). */
+   * overlay with prev/next; clicking a lookbook frame opens the
+   * whole lookbook from that frame. Image lists mirror the folders
+   * under public/ (card thumbnail listed first); `base` defaults to
+   * the weddings folder.
+   * Paths are absolute: the location pages live at /brandon/ etc,
+   * so a relative path would resolve to /brandon/public/... */
   const lightbox = document.getElementById('lightbox');
   if (lightbox) {
-    const srcFor = (folder, file) =>
-      'public/Weddings/' + encodeURIComponent(folder) + '/' + encodeURIComponent(file);
+    /* Resolve the prefix up to `public/` from an image that already loads on
+       this page, so the galleries match however the page references assets:
+       relative on the homepage, root-absolute on /brandon/ etc, and correct
+       under a local file:// preview. Falls back to the root-absolute path. */
+    const publicPrefix = (() => {
+      const imgs = document.querySelectorAll('img');
+      for (let k = 0; k < imgs.length; k++) {
+        const s = imgs[k].getAttribute('src') || '';
+        const i = s.indexOf('public/');
+        if (i !== -1) return s.slice(0, i) + 'public/';
+      }
+      return '/public/';
+    })();
+
+    const srcFor = (base, folder, file) =>
+      publicPrefix + base + '/' + encodeURIComponent(folder) + '/' + encodeURIComponent(file);
 
     const GALLERIES = {
       'ashley-mayson': { title: 'Ashley & Mayson', folder: 'Ashley & Mayson', files: [
@@ -94,7 +112,40 @@
       'laura-tim': { title: 'Laura & Tim', folder: 'Laura and Tim', files: [
         '8E2A2063A.jpg', '8E2A0088A.jpg', '8E2A2065A.jpg', '8E2A3280A.jpg', '8E2A3283A.jpg', '8E2A3350A.jpg',
         '8E2A3465A.jpg', '8E2A3562A.jpg', '8E2A3697A.jpg' ] },
+      'divyaraj-nitasha': { title: 'Divyaraj & Nitasha', base: 'engagement', folder: 'Divyaraj & Nitasha', files: [
+        'Nitasha&Divyraj-22.jpg', 'Nitasha&Divyraj-9.jpg', 'Nitasha&Divyraj-12.jpg', 'Nitasha&Divyraj-16.jpg',
+        'Nitasha&Divyraj-21.jpg', 'Nitasha&Divyraj-27.jpg', 'Nitasha&Divyraj-32.jpg', 'Nitasha&Divyraj-40.jpg',
+        'Nitasha&Divyraj-46.jpg', 'Nitasha&Divyraj-55.jpg', 'Nitasha&Divyraj-67.jpg' ] },
+      'harsh-aesha': { title: 'Harsh & Aesha', base: 'engagement', folder: 'Harsh & Aesha', files: [
+        'Harsh&Aesha-Engagement-140.jpg', 'Harsh&Aesha-Engagement-84.jpg', 'Harsh&Aesha-Engagement-85.jpg',
+        'Harsh&Aesha-Engagement-133.jpg', 'Harsh&Aesha-Engagement-142.jpg', 'Harsh&Aesha-Engagement-144.jpg',
+        'Harsh&Aesha-Engagement-167.jpg', 'Harsh&Aesha-Engagement-175.jpg' ] },
     };
+
+    /* Normalise every gallery to a flat list of srcs, so a gallery can either
+       mirror one folder (the couples) or gather frames from several (the
+       lookbook). `labels` is per-photo; `title` is the fallback for all. */
+    const galleries = {};
+    Object.keys(GALLERIES).forEach((slug) => {
+      const g = GALLERIES[slug];
+      const base = g.base || 'Weddings';
+      galleries[slug] = { title: g.title, srcs: g.files.map((f) => srcFor(base, g.folder, f)) };
+    });
+
+    /* The lookbook reads its srcs straight off the page, so it stays in step
+       with the markup and works whatever prefix a page uses. */
+    const lookbookImgs = Array.from(document.querySelectorAll('.masonry__item img'));
+    if (lookbookImgs.length) {
+      const folderOf = (src) => {
+        const parts = src.split('/').filter(Boolean);
+        return parts.length >= 2 ? decodeURIComponent(parts[parts.length - 2]) : 'Trident Studios';
+      };
+      galleries.lookbook = {
+        title: 'Frames we love',
+        srcs: lookbookImgs.map((im) => im.getAttribute('src')),
+        labels: lookbookImgs.map((im) => folderOf(im.getAttribute('src'))),
+      };
+    }
 
     const imgEl = lightbox.querySelector('.lightbox__img');
     const titleEl = lightbox.querySelector('.lightbox__title');
@@ -107,30 +158,32 @@
     let index = 0;
     let lastFocus = null;
 
-    const preload = (folder, file) => { const im = new Image(); im.src = srcFor(folder, file); };
+    const preload = (src) => { const im = new Image(); im.src = src; };
+
+    const labelAt = (i) => (current.labels ? current.labels[i] : current.title);
 
     const show = (i) => {
-      const n = current.files.length;
+      const n = current.srcs.length;
       index = (i + n) % n;
-      imgEl.src = srcFor(current.folder, current.files[index]);
-      imgEl.alt = current.title + ' — photo ' + (index + 1);
-      titleEl.textContent = current.title;
+      imgEl.src = current.srcs[index];
+      imgEl.alt = labelAt(index) + ' — photo ' + (index + 1);
+      titleEl.textContent = labelAt(index);
       countEl.textContent = (index + 1) + ' / ' + n;
       const single = n < 2;
       btnPrev.hidden = single;
       btnNext.hidden = single;
-      preload(current.folder, current.files[(index + 1) % n]);
-      preload(current.folder, current.files[(index - 1 + n) % n]);
+      preload(current.srcs[(index + 1) % n]);
+      preload(current.srcs[(index - 1 + n) % n]);
     };
 
-    const open = (slug) => {
-      const g = GALLERIES[slug];
-      if (!g) return;
+    const open = (slug, start) => {
+      const g = galleries[slug];
+      if (!g || !g.srcs.length) return;
       current = g;
       lastFocus = document.activeElement;
       lightbox.hidden = false;
       document.body.style.overflow = 'hidden';
-      show(0);
+      show(start || 0);
       btnClose.focus();
     };
 
@@ -163,17 +216,27 @@
       touchX = null;
     }, { passive: true });
 
+    const wire = (el, slug, start, label) => {
+      el.classList.add('has-gallery');
+      el.setAttribute('role', 'button');
+      el.setAttribute('tabindex', '0');
+      el.setAttribute('aria-label', label);
+      el.addEventListener('click', () => open(slug, start));
+      el.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(slug, start); }
+      });
+    };
+
     document.querySelectorAll('.couple[data-gallery]').forEach((card) => {
       const slug = card.getAttribute('data-gallery');
-      if (!GALLERIES[slug]) return;
-      card.classList.add('has-gallery');
-      card.setAttribute('role', 'button');
-      card.setAttribute('tabindex', '0');
-      card.setAttribute('aria-label', 'Open ' + GALLERIES[slug].title + ' photo gallery');
-      card.addEventListener('click', () => open(slug));
-      card.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(slug); }
-      });
+      if (!galleries[slug]) return;
+      wire(card, slug, 0, 'Open ' + galleries[slug].title + ' photo gallery');
+    });
+
+    /* Each lookbook frame opens the whole lookbook, starting on itself. */
+    lookbookImgs.forEach((im, i) => {
+      wire(im.closest('.masonry__item'), 'lookbook', i,
+        'Open lookbook gallery at photo ' + (i + 1) + ' of ' + lookbookImgs.length);
     });
   }
 

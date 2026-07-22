@@ -1,4 +1,4 @@
-# Photos are ignored by default: public/ holds ~1.6 GB of full-res originals
+# Photos are ignored by default: public/ holds ~1.4 GB of full-res originals
 # that the site never loads. Only the images actually referenced by the
 # pages and the script.js galleries are committed, web-sized.
 # Full-res originals live outside the repo: D:\TRIDENT\photo-site-originals
@@ -68,9 +68,27 @@ public/**
 !public/Weddings/Vrajna & Rutuj/Emma&Chad-83.jpg
 !public/Weddings/Vrajna & Rutuj/Emma&Chad-90.jpg
 !public/engagement/Brenna & Bryce/brennabryce-06.jpg
+!public/engagement/Brenna & Bryce/brennabryce-07.jpg
+!public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-12.jpg
+!public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-16.jpg
+!public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-21.jpg
 !public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-22.jpg
+!public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-27.jpg
+!public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-32.jpg
+!public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-40.jpg
+!public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-46.jpg
+!public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-55.jpg
+!public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-67.jpg
+!public/engagement/Divyaraj & Nitasha/Nitasha&Divyraj-9.jpg
+!public/engagement/Harsh & Aesha/Harsh&Aesha-Engagement-133.jpg
 !public/engagement/Harsh & Aesha/Harsh&Aesha-Engagement-140.jpg
-!public/engagement/Vrajna & Rutuj/RobMintenko-5.jpg
+!public/engagement/Harsh & Aesha/Harsh&Aesha-Engagement-142.jpg
+!public/engagement/Harsh & Aesha/Harsh&Aesha-Engagement-144.jpg
+!public/engagement/Harsh & Aesha/Harsh&Aesha-Engagement-167.jpg
+!public/engagement/Harsh & Aesha/Harsh&Aesha-Engagement-175.jpg
+!public/engagement/Harsh & Aesha/Harsh&Aesha-Engagement-84.jpg
+!public/engagement/Harsh & Aesha/Harsh&Aesha-Engagement-85.jpg
+!public/engagement/Vrajna & Rutuj/RobMintenko-6.jpg
 
 # local noise
 .DS_Store

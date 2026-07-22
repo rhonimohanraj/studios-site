@@ -543,6 +543,10 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 220px;
   gap: clamp(12px, 1.4vw, 22px);
+  /* dense backfills the holes a --wide item leaves when it cannot fit the
+     columns left in a row; the item count is kept a multiple of the column
+     count so the last row lands flush too. */
+  grid-auto-flow: dense;
 }
 .masonry__item {
   margin: 0;
@@ -962,6 +966,8 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
    ───────────────────────────────────────────────────────── */
 .couple.has-gallery { cursor: pointer; }
 .couple.has-gallery:focus-visible { outline: 2px solid var(--gold); outline-offset: 6px; }
+.masonry__item.has-gallery { cursor: pointer; }
+.masonry__item.has-gallery:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
 .couple.has-gallery .couple__media::after {
   content: "View gallery";
   position: absolute;
