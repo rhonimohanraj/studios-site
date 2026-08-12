@@ -1,3 +1,11 @@
 {
-  "outputDirectory": "."
+  "outputDirectory": ".",
+  "redirects": [
+    { "source": "/about", "destination": "/#about", "permanent": true },
+    { "source": "/about/", "destination": "/#about", "permanent": true },
+    { "source": "/inquire-form", "destination": "/inquiry/", "permanent": true },
+    { "source": "/inquire-form/", "destination": "/inquiry/", "permanent": true },
+    { "source": "/inquire", "destination": "/inquiry/", "permanent": true },
+    { "source": "/contact", "destination": "/inquiry/", "permanent": true }
+  ]
 }
