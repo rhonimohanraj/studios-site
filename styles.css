@@ -800,6 +800,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
 .footer__brand { max-width: 300px; }
 .footer__brand img { height: 54px; width: auto; margin-bottom: 22px; opacity: 0.95; }
 .footer__tagline { line-height: 1.6; max-width: 280px; margin: 0; }
+.footer__col h3,
 .footer__col h4 {
   font-family: var(--serif);
   font-size: 20px;
