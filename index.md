@@ -17,6 +17,8 @@ Editorial wedding photography for couples who want their story told with quiet a
 
 We are Trident Studios. We photograph weddings across Manitoba, Saskatchewan, and beyond with a quiet, observational eye — chasing the light, the laughter, and the in-between moments that become the family stories of tomorrow.
 
+Planning locally? Meet your [wedding photographer in Brandon](https://www.tridentstudios.ca/brandon/) or your [wedding photographer in Winnipeg](https://www.tridentstudios.ca/winnipeg/).
+
 Weddings · Engagements · Editorial · Destination · Lifestyle
 
 ## Recent work: featured weddings & engagements

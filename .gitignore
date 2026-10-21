@@ -90,6 +90,9 @@ public/**
 !public/engagement/Harsh & Aesha/Harsh&Aesha-Engagement-85.jpg
 !public/engagement/Vrajna & Rutuj/RobMintenko-6.jpg
 
+# web-sized, descriptively named copies used by the city landing pages
+!public/city/**
+
 # local noise
 .DS_Store
 Thumbs.db
