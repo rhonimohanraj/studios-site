@@ -119,6 +119,9 @@ Yes. We photograph weddings across Westman, including Shilo, Carberry, Souris, V
 **How far in advance should we book our Brandon wedding?**
 We take on a limited number of weddings each year so every couple gets our full attention. For summer and early-autumn Saturdays in Brandon and Westman, most couples book 12 to 18 months ahead. If your date is sooner, send an inquiry anyway; we reply within 48 hours.
 
+**Do you photograph elopements and small weddings near Brandon?**
+Yes. Elopements and small ceremonies, for two people or twenty, are shaped around your plans, whether that means a ceremony in town, a lakeside weekend at Clear Lake or a quiet spot in Riding Mountain National Park. We photograph the ceremony, your portraits and the people with you, and quote the coverage after a short conversation about your day. There is no travel fee inside Brandon.
+
 ## Let's plan your Brandon wedding.
 We take on a small number of weddings each year so every couple gets our full attention. Tell us your date and venue and we will reply within 48 hours. Marrying in the city instead? Visit our [Winnipeg wedding photography](https://www.tridentstudios.ca/winnipeg/) page.
 

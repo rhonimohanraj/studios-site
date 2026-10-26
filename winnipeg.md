@@ -106,6 +106,9 @@ Yes. We photograph weddings across the Capital Region, including Selkirk, Stonew
 **How far in advance should we book our Winnipeg wedding?**
 We take on a limited number of weddings each year. For summer and autumn Saturdays in Winnipeg, most couples book 12 to 18 months in advance. If your date is closer than that, send an inquiry anyway; we reply within 48 hours, Monday to Friday.
 
+**Can we elope or have a small wedding in Winnipeg with you?**
+Yes. We photograph elopements and small weddings for two to twenty people: a ceremony in a park, a backyard or a restaurant private room, with portraits close by. Assiniboine Park, The Forks and the Exchange District all work well for a short portrait walk afterwards. Each small wedding is quoted after a short conversation about your plans, and we reply to inquiries within 48 hours, Monday to Friday.
+
 ## Tell us about your Winnipeg wedding.
 Send your date, venue and a little about your plans and we will reply within 48 hours. Getting married in Westman? Visit our [Brandon wedding photographer](https://www.tridentstudios.ca/brandon/) page.
 
