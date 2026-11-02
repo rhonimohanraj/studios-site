@@ -320,6 +320,18 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
   letter-spacing: -0.02em;
   margin: 0;
 }
+.hero__brand {
+  display: block;
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(24px, 2.4vw, 34px);
+  letter-spacing: 0.01em;
+  color: var(--always-cream);
+  margin: 0 0 14px;
+  opacity: 0;
+  animation: lineIn 1s var(--ease) 0.1s forwards;
+}
+.hero__tagline { display: block; }
 .hero__title .line {
   display: block;
   opacity: 0;
@@ -798,6 +810,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
   gap: clamp(30px, 4vw, 56px);
 }
 .footer__brand { max-width: 300px; }
+.footer__home { display: inline-block; }
 .footer__brand img { height: 54px; width: auto; margin-bottom: 22px; opacity: 0.95; }
 .footer__tagline { line-height: 1.6; max-width: 280px; margin: 0; }
 .footer__col h3,

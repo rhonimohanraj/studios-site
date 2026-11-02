@@ -109,6 +109,9 @@ We take on a limited number of weddings each year. For summer and autumn Saturda
 **Can we elope or have a small wedding in Winnipeg with you?**
 Yes. We photograph elopements and small weddings for two to twenty people: a ceremony in a park, a backyard or a restaurant private room, with portraits close by. Assiniboine Park, The Forks and the Exchange District all work well for a short portrait walk afterwards. Each small wedding is quoted after a short conversation about your plans, and we reply to inquiries within 48 hours, Monday to Friday.
 
+**Do we need a second photographer for our Winnipeg wedding?**
+A second photographer can be added to your wedding collection when you book. It helps most when the two of you get ready in different parts of the city, or when a big guest list at a hotel ballroom means you want candids of your guests while we take family photos. For a small wedding or elopement, one photographer covers the day comfortably. Albums can be added at booking too.
+
 ## Tell us about your Winnipeg wedding.
 Send your date, venue and a little about your plans and we will reply within 48 hours. Getting married in Westman? Visit our [Brandon wedding photographer](https://www.tridentstudios.ca/brandon/) page.
 

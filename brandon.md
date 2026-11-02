@@ -122,6 +122,9 @@ We take on a limited number of weddings each year so every couple gets our full 
 **Do you photograph elopements and small weddings near Brandon?**
 Yes. Elopements and small ceremonies, for two people or twenty, are shaped around your plans, whether that means a ceremony in town, a lakeside weekend at Clear Lake or a quiet spot in Riding Mountain National Park. We photograph the ceremony, your portraits and the people with you, and quote the coverage after a short conversation about your day. There is no travel fee inside Brandon.
 
+**How many hours of photography does a Brandon wedding need?**
+Our wedding collections run from about 5 hours, which covers the ceremony, family photos, your portraits and the start of the reception, up to 10 hours, which follows the whole day from getting ready to the first dances. If you get ready in Brandon and marry at a hall or farm venue out in Westman, allow time for the drive between them. Extra hours can be added before or during the wedding.
+
 ## Let's plan your Brandon wedding.
 We take on a small number of weddings each year so every couple gets our full attention. Tell us your date and venue and we will reply within 48 hours. Marrying in the city instead? Visit our [Winnipeg wedding photography](https://www.tridentstudios.ca/winnipeg/) page.
 

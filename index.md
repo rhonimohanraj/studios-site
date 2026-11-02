@@ -1,12 +1,12 @@
-# Trident Studios — Wedding Photography in Brandon, Winnipeg & Regina
+# Trident Studios | Wedding Photography in Brandon & Winnipeg
 
 > Editorial wedding, engagement, elopement and lifestyle photography based in Brandon, Manitoba, serving Brandon, Winnipeg, Regina and all of Manitoba and Saskatchewan. Part of Trident Event Group.
 
 Brandon · Winnipeg · Regina · Prairies & Beyond
 
-## Your love remembered in light.
+## Trident Studios: your love, remembered in light.
 
-Editorial wedding photography for couples who want their story told with quiet artistry, honest emotion, and timeless craft.
+Editorial wedding photography from Brandon, Manitoba, for couples who want their story told with quiet artistry, honest emotion and timeless craft.
 
 - [Begin your story (inquiry form)](https://www.tridentstudios.ca/inquiry/)
 - [View portfolio](https://www.tridentstudios.ca/#portfolio)
@@ -15,7 +15,7 @@ Editorial wedding photography for couples who want their story told with quiet a
 
 **Hundreds of love stories, one steady promise — photographs you will live with forever.**
 
-We are Trident Studios. We photograph weddings across Manitoba, Saskatchewan, and beyond with a quiet, observational eye — chasing the light, the laughter, and the in-between moments that become the family stories of tomorrow.
+Trident Studios is the wedding photography brand of [Trident Event Group](https://www.tridenteventgroup.ca/), based in Brandon, Manitoba. We photograph weddings, engagements and elopements across Manitoba, Saskatchewan and beyond with a quiet, observational eye, chasing the light, the laughter and the in-between moments that become the family stories of tomorrow.
 
 Planning locally? Meet your [wedding photographer in Brandon](https://www.tridentstudios.ca/brandon/) or your [wedding photographer in Winnipeg](https://www.tridentstudios.ca/winnipeg/).
 
