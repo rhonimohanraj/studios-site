@@ -112,6 +112,9 @@ Yes. We photograph elopements and small weddings for two to twenty people: a cer
 **Do we need a second photographer for our Winnipeg wedding?**
 A second photographer can be added to your wedding collection when you book. It helps most when the two of you get ready in different parts of the city, or when a big guest list at a hotel ballroom means you want candids of your guests while we take family photos. For a small wedding or elopement, one photographer covers the day comfortably. Albums can be added at booking too.
 
+**Where can we take wedding photos in Winnipeg when it is too cold outside?**
+On a cold day, plan ten to fifteen minutes of portraits in the snow and take the rest indoors. The tropical biome at The Leaf in Assiniboine Park stays green all winter; a wedding party needs a semi-private or private photo session booked with the park. Hotel lobbies, brick-walled Exchange District venues and big windows at your own venue work well too. In December the sun sets around 4:30 pm, so plan outdoor portraits for early afternoon.
+
 ## Tell us about your Winnipeg wedding.
 Send your date, venue and a little about your plans and we will reply within 48 hours. Getting married in Westman? Visit our [Brandon wedding photographer](https://www.tridentstudios.ca/brandon/) page.
 

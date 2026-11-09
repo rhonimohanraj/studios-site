@@ -7,7 +7,7 @@ Brandon · Westman · Manitoba
 # Brandon photographer for Westman weddings.
 Wedding, engagement and elopement photography from a studio that calls the Wheat City home, with coverage from the Assiniboine valley out to Clear Lake.
 
-Trident Studios is a Brandon photography studio for weddings, engagements and elopements in Brandon, Manitoba, and across Westman, including Virden, Souris, Neepawa and Minnedosa. Wedding collections cover the full day, from getting ready to the dance floor, and are quoted to your date and venue, with no travel fee inside Brandon. We have photographed more than 300 couples over 10+ years, including receptions at the Imperial Ballroom and tent weddings at Oakland Estate. Book by calling [+1-431-441-2676](tel:+14314412676) or through the [inquiry form](https://www.tridentstudios.ca/inquiry/).
+Trident Studios is a wedding photographer in Brandon, Manitoba, photographing weddings, engagements and elopements in the city and across Westman, including Virden, Souris, Neepawa and Minnedosa. Wedding collections cover the full day, from getting ready to the dance floor, and are quoted to your date and venue, with no travel fee inside Brandon. We have photographed more than 300 couples over 10+ years, including receptions at the Imperial Ballroom and tent weddings at Oakland Estate. Book by calling [+1-431-441-2676](tel:+14314412676) or through the [inquiry form](https://www.tridentstudios.ca/inquiry/).
 
 ## Brandon weddings in short
 - Price: Quoted to your date, hours and venue. No travel fee inside Brandon; travel within the prairies is included in most collections.
@@ -124,6 +124,9 @@ Yes. Elopements and small ceremonies, for two people or twenty, are shaped aroun
 
 **How many hours of photography does a Brandon wedding need?**
 Our wedding collections run from about 5 hours, which covers the ceremony, family photos, your portraits and the start of the reception, up to 10 hours, which follows the whole day from getting ready to the first dances. If you get ready in Brandon and marry at a hall or farm venue out in Westman, allow time for the drive between them. Extra hours can be added before or during the wedding.
+
+**Do you help plan the photo timeline for our Brandon wedding?**
+Yes. Our 10-hour collection includes timeline guidance one to three weeks before the wedding. We work through when family photos happen, how much time your portraits need and where the light will be. From late September on, the sun sets around dinnertime in Brandon, so portraits often move to before the ceremony or to a short walk between dinner and speeches. Ask about timeline help for shorter collections when you book.
 
 ## Let's plan your Brandon wedding.
 We take on a small number of weddings each year so every couple gets our full attention. Tell us your date and venue and we will reply within 48 hours. Marrying in the city instead? Visit our [Winnipeg wedding photography](https://www.tridentstudios.ca/winnipeg/) page.
