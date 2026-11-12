@@ -16,6 +16,12 @@ Trident Studios is a brand of Trident Event Group Inc., a company based at 19 Pr
 
 We use your information to answer your inquiry, check availability, prepare quotes, deliver the services you book, send contracts and invoices, deliver your photographs, and keep in touch about your event. We do not sell your personal information.
 
+## Advertising and remarketing
+
+We use Google Analytics and advertising tools from Google and Meta (Facebook and Instagram) to measure which pages and ads lead to inquiries, and to show our ads to people who have visited this site. These tools use cookies and similar technologies. Google may connect visits across your devices if you are signed in to a Google account with ad personalization turned on. When you submit an inquiry form, these tools are told that a form was sent; the answers you type stay with us.
+
+You can turn off personalized ads in [Google ad settings](https://adssettings.google.com) and in your [Meta ad preferences](https://accountscenter.facebook.com/ad_preferences), install the [Google Analytics opt-out add-on](https://tools.google.com/dlpage/gaoptout), or block cookies in your browser.
+
 ## Who we share it with
 
 We share personal information only with service providers who help us deliver your event and run our business — for example our booking and CRM software, email, payment processing, file delivery, and analytics tools — and with team members or sister Trident Event Group brands working on your event. These providers may store data outside Canada and are expected to protect it. We may also disclose information where the law requires it.
