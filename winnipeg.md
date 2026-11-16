@@ -115,6 +115,9 @@ A second photographer can be added to your wedding collection when you book. It 
 **Where can we take wedding photos in Winnipeg when it is too cold outside?**
 On a cold day, plan ten to fifteen minutes of portraits in the snow and take the rest indoors. The tropical biome at The Leaf in Assiniboine Park stays green all winter; a wedding party needs a semi-private or private photo session booked with the park. Hotel lobbies, brick-walled Exchange District venues and big windows at your own venue work well too. In December the sun sets around 4:30 pm, so plan outdoor portraits for early afternoon.
 
+**Do we need to book wedding photos at Assiniboine Park or The Forks?**
+For some spots, yes. At Assiniboine Park, photo sessions in the Leo Mol Sculpture Garden and the gardens at The Leaf are booked by the hour, and private or semi-private sessions inside The Leaf need at least 15 days' notice. At The Forks National Historic Site, Parks Canada asks couples to send its on-site photography request form. Book these early and we'll build them into your photo timeline.
+
 ## Tell us about your Winnipeg wedding.
 Send your date, venue and a little about your plans and we will reply within 48 hours. Getting married in Westman? Visit our [Brandon wedding photographer](https://www.tridentstudios.ca/brandon/) page.
 

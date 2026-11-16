@@ -128,6 +128,9 @@ Our wedding collections run from about 5 hours, which covers the ceremony, famil
 **Do you help plan the photo timeline for our Brandon wedding?**
 Yes. Our 10-hour collection includes timeline guidance one to three weeks before the wedding. We work through when family photos happen, how much time your portraits need and where the light will be. From late September on, the sun sets around dinnertime in Brandon, so portraits often move to before the ceremony or to a short walk between dinner and speeches. Ask about timeline help for shorter collections when you book.
 
+**What happens if our Brandon wedding runs late?**
+Timelines slip, especially once speeches start. Extra hours can be added before the wedding or during it, so if dinner runs long or you want the dance floor covered later than planned, tell your photographer on the day and they can stay for the extra time. If you already expect a late night, add the hours when you book so they are part of your plan from the start.
+
 ## Let's plan your Brandon wedding.
 We take on a small number of weddings each year so every couple gets our full attention. Tell us your date and venue and we will reply within 48 hours. Marrying in the city instead? Visit our [Winnipeg wedding photography](https://www.tridentstudios.ca/winnipeg/) page.
 
