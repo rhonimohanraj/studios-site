@@ -42,6 +42,7 @@ Studio address: 19 Premier Avenue, Brandon, MB R7B 3N9, Canada. Instagram: https
 
 - [Home (Markdown)](https://www.tridentstudios.ca/index.md): services, featured weddings, testimonials, FAQ, contact. HTML: https://www.tridentstudios.ca/
 - [About (Markdown)](https://www.tridentstudios.ca/about.md): who the studio is, where it works, Trident Event Group. HTML: https://www.tridentstudios.ca/about/
+- [Gives Back (Markdown)](https://www.tridentstudios.ca/giving-back.md): services and time we have donated to community causes and the organizations we support. HTML: https://www.tridentstudios.ca/giving-back/
 - [Contact (Markdown)](https://www.tridentstudios.ca/contact.md): email, phone, address, hours, service area. HTML: https://www.tridentstudios.ca/contact/
 - [Inquiry (Markdown)](https://www.tridentstudios.ca/inquiry.md): how to send an inquiry. HTML: https://www.tridentstudios.ca/inquiry/
 - [Brandon weddings (Markdown)](https://www.tridentstudios.ca/brandon.md): Brandon and Westman venues and FAQ. HTML: https://www.tridentstudios.ca/brandon/
