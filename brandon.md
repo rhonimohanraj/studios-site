@@ -131,6 +131,9 @@ Yes. Our 10-hour collection includes timeline guidance one to three weeks before
 **What happens if our Brandon wedding runs late?**
 Timelines slip, especially once speeches start. Extra hours can be added before the wedding or during it, so if dinner runs long or you want the dance floor covered later than planned, tell your photographer on the day and they can stay for the extra time. If you already expect a late night, add the hours when you book so they are part of your plan from the start.
 
+**Do you photograph corporate events and Christmas parties in Brandon?**
+Yes. Our event photographers cover company parties, banquets and awards nights in Brandon, from the first arrivals to the dance floor, with candids of your guests, the speakers and every award handed out. In November 2026 we photographed a company holiday party in the Keystone Centre's UCT Pavilion from start to finish. Send your run of show, and we'll plan the coverage around the moments your team wants.
+
 ## Let's plan your Brandon wedding.
 We take on a small number of weddings each year so every couple gets our full attention. Tell us your date and venue and we will reply within 48 hours. Marrying in the city instead? Visit our [Winnipeg wedding photography](https://www.tridentstudios.ca/winnipeg/) page.
 

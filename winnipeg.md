@@ -118,6 +118,9 @@ On a cold day, plan ten to fifteen minutes of portraits in the snow and take the
 **Do we need to book wedding photos at Assiniboine Park or The Forks?**
 For some spots, yes. At Assiniboine Park, photo sessions in the Leo Mol Sculpture Garden and the gardens at The Leaf are booked by the hour, and private or semi-private sessions inside The Leaf need at least 15 days' notice. At The Forks National Historic Site, Parks Canada asks couples to send its on-site photography request form. Book these early and we'll build them into your photo timeline.
 
+**When is golden hour for wedding photos in Winnipeg?**
+In late June the sun sets in Winnipeg at about 9:40 pm, and by the end of July around 9:10, so the warm evening light usually lands during dinner or the speeches. We can build a short portrait break of 15 to 20 minutes into your timeline for it. By the end of August sunset is closer to 8:15, and by mid-September about 7:40, so we check the exact time for your date when we plan your photos.
+
 ## Tell us about your Winnipeg wedding.
 Send your date, venue and a little about your plans and we will reply within 48 hours. Getting married in Westman? Visit our [Brandon wedding photographer](https://www.tridentstudios.ca/brandon/) page.
 
